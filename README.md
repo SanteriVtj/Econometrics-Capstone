@@ -62,7 +62,7 @@ First clone this repository to your local hard drive with:
 
 `git clone https://github.com/SanteriVtj/Econometrics-Capstone.git`
 
-Note that clone of this repositry will appears to directory you are at the moment of cloning!
+Note that clone of this repositry will appears to directory you are at the moment of cloning! If you have iCloud sync on on your directory of choice I suggest doing first folder which name is formatted as example_folder.nosync and then cloning repo as subfolder to that so it doesn't get synced to your iCloud and then you don't have to download the forlder from there before use.
 
 Go to directory ./Econometrics-Capstone with:
 
