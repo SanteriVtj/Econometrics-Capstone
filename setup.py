@@ -5,6 +5,6 @@ setup(
     packages=find_packages(),
     version='0.1.0',
     description='Coursework for Aalto-university Econometrics course.',
-    author='Santeri Väätäjä',
+    author='Karhut',
     license='',
 )
