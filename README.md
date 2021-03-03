@@ -55,3 +55,29 @@ Project Organization
 --------
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+
+# Before using
+
+First clone this repository to your local hard drive with:
+
+`git clone https://github.com/SanteriVtj/Econometrics-Capstone.git`
+
+Note that clone of this repositry will appears to directory you are at the moment of cloning!
+
+Go to directory ./Econometrics-Capstone with:
+
+`cd Econometrics-Capstone`
+
+Create python virtual environment with:
+
+`python3 -m venv capstone_env`
+
+and activate it:
+
+`source capstone_env/bin/activate`
+
+then install all the dependencis:
+
+`pip3 install -r requirements.txt`
+
+
