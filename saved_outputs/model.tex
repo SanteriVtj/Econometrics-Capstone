@@ -1,0 +1,32 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{7}{c}}
+\hline\hline
+            &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}&\multicolumn{1}{c}{(7)}\\
+            &\multicolumn{1}{c}{ln\_gdp}&\multicolumn{1}{c}{ln\_gdp}&\multicolumn{1}{c}{ln\_gdp}&\multicolumn{1}{c}{ln\_gdp}&\multicolumn{1}{c}{ln\_gdp}&\multicolumn{1}{c}{ln\_gdp}&\multicolumn{1}{c}{ln\_gdp}\\
+\hline
+democracy   &      -0.119         &     -0.0528         &      -0.120\sym{**} &     -0.0387         &                     &     -0.0516         &     -0.0516         \\
+            &    (0.0766)         &    (0.0488)         &    (0.0237)         &     (0.120)         &                     &    (0.0963)         &    (0.0551)         \\
+[1em]
+civilsocietytraditions&      -0.115\sym{*}  &     -0.0965\sym{*}  &      -0.112\sym{*}  &     -0.0994\sym{*}  &     -0.0983\sym{*}  &     -0.0984\sym{*}  &     -0.0984\sym{*}  \\
+            &    (0.0358)         &    (0.0336)         &    (0.0289)         &    (0.0446)         &    (0.0311)         &    (0.0413)         &    (0.0326)         \\
+[1em]
+rol         &                     &       0.434\sym{**} &       0.579\sym{**} &                     &       0.395\sym{**} &       0.398\sym{**} &       0.398\sym{**} \\
+            &                     &    (0.0994)         &    (0.0991)         &                     &    (0.0753)         &     (0.125)         &    (0.0742)         \\
+[1em]
+life\_expectancy&                     &      0.0434\sym{*}  &                     &      0.0475\sym{***}&      0.0420\sym{**} &      0.0416\sym{***}&      0.0416\sym{**} \\
+            &                     &    (0.0108)         &                     &    (0.0125)         &   (0.00905)         &    (0.0101)         &   (0.00903)         \\
+[1em]
+broadband   &                     &                     &    3.06e-09\sym{***}&    2.96e-09\sym{***}&    2.73e-09\sym{***}&    2.73e-09\sym{***}&    2.73e-09\sym{***}\\
+            &                     &                     &  (1.24e-10)         &  (1.89e-10)         &  (1.06e-10)         &  (1.99e-10)         &  (1.04e-10)         \\
+[1em]
+\_cons      &       8.900\sym{***}&       5.879\sym{***}&       9.039\sym{***}&       5.452\sym{***}&       5.924\sym{***}&       5.986\sym{***}&       5.986\sym{***}\\
+            &     (0.187)         &     (0.801)         &     (0.177)         &     (0.962)         &     (0.642)         &     (0.777)         &     (0.675)         \\
+\hline
+\(N\)       &         132         &         132         &         132         &         132         &         132         &         132         &         132         \\
+adj. \(R^{2}\)&       0.041         &       0.392         &       0.269         &       0.399         &       0.456         &       0.453         &       0.453         \\
+\hline\hline
+\multicolumn{8}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{8}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{tabular}
+}
