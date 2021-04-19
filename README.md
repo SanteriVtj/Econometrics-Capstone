@@ -10,7 +10,7 @@
 ### Data 
 
 * data.ipynb
-    * Contains imports of data
+    * Contains data importing and formatting
 * add_wb_var.ipynb
     * Contains code to fetch individual values from world bank API
 * clear.ipynb
